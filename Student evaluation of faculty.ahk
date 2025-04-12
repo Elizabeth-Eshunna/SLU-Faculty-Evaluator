@@ -1,5 +1,5 @@
 ; Array of answers for 25 questions (represented by numbers 1-5)
-answers := [1, 1, 5, 1, 1, 1, 5, 1, 1, 1, 1, 1, 5, 1, 1, 5, 1, 1, 1, 3, 5, 1, 1, 5, 5, 1, 1]
+answers := [1, 1, 5, 1, 1, 1, 5, 1, 1, 1, 1, 1, 5, 1, 1, 5, 2, 1, 1, 3, 5, 1, 1, 5, 5, 1, 1]
 
 ; Hotkey to start the script when Tab key is pressed
 ~Tab::
