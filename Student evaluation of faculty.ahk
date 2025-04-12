@@ -9,49 +9,7 @@ Gui, Add, Button, gClearArray, Clear All
 Gui, Show,, Array Editor
 return
 
-; Function to Save Edits
-SaveArray:
-Gui, Submit, NoHide
-If (ValidateArray(AnswersBox)) {
-    answers := StrSplit(AnswersBox, ",")
-    MsgBox, 64, Success, Array updated successfully!
-    Gui, Destroy
-} else {
-    MsgBox, 48, Error, Invalid input! Ensure values are between 1 and 5.
-}
-return
 
-; Function to Clear the Array
-ClearArray:
-GuiControl,, AnswersBox,
-return
-
-
-; Helper Functions
-
-; Validate Array Input (Only Values 1-5)
-ValidateArray(input) {
-    for val in StrSplit(input, ",")
-        if (val < 1 || val > 5)
-            return false
-    return true
-}
-; Function to Format the Array into a Comma-Separated String
-FormatArray(arr) {
-    result := ""
-    for index, value in arr {
-        result .= value ","
-    }
-    ; Remove the trailing comma
-    return SubStr(result, 1, -1)
-}
-
-
-
-
-
-
-;remove everything up
 ; Array of answers for 25 questions (represented by numbers 1-5)
 ;OG := [1, 1, 5, 1, 1, 1, 5, 1, 1, 1, 1, 1, 5, 1, 1, 5, 1, 1, 1, 3, 5, 1, 1, 5, 5, 1, 1]
 answers := [1, 1, 5, 1, 1, 1, 5, 1, 1, 1, 1, 1, 5, 1, 1, 5, 1, 1, 1, 3, 5, 1, 1, 5, 5, 1, 1]
