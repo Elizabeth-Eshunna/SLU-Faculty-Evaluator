@@ -7,6 +7,7 @@ The .ahk format can be opened if you have the auto hotkey application (https://w
 if you do not want to install ahk, then an .exe is provided. just have to run it and allow the windows security to run it.
 
 script explanation:
+
 press tab to go to next question
 arrow keys dictate the answer
 
