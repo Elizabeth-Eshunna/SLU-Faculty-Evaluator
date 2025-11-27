@@ -20,3 +20,4 @@ The index in the array are the question number and what to answer, where it will
 The first answer of the question can be only reached if the input arrows were "right->left", 
 this is because of how answering the question (with the right arrow key) always starts at the second answer, so the left arrow key backtracks that.
 
+Theres a current issue that on a new page/fresh reload, pressing tab does NOT complete the eval. refresh if this happens. Before pressing tab, you must press the page first (somewhere upper portion of the screen and THEN press tab)
