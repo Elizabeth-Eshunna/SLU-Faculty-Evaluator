@@ -8,7 +8,10 @@ if you do not want to install ahk, then an .exe is provided. You just have to ru
 
 If you use the .ahk version, you can edit the array if you want more tailored answers to your liking.
 
-How to use: Press TAB on the upper area (or where the quesions are not in the area). 
+How to use: 
+Left click somewhere on the upper area of the page.
+Press TAB on the upper area (or where the quesions are not in the area). 
+If all things go wrong, just refresh the page and start over.
 Do not forget to exit the script by going to your taskbar, right click the icon and press "Exit".
 
 Script explanation:
